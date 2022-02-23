@@ -1,19 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+* {
+    font-family: 'Poppins', Arial, sans-serif;
+    
+}
+
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }    
 
 .navbar {
-    background-color: rgba(61, 61, 61, 0.363);
+    background: rgba(255, 255, 255, 0.219);
+    
 }
 
+#link-home, #link-about, #link-services, #link-portfolio, #link-contact {
+    color: #363636;
+}
 
 .navbar-brand {
-    color: #512b26;
+    color: #363636;
 }    
 
 li.nav-link {
-    color: #512b26;
+    color: #363636;
     cursor: pointer;
 }    
 
@@ -58,6 +69,15 @@ li.nav-link {
 
 .card-title {
     text-align: center;
+    
+}
+
+.bodytext {
+    font-weight: 200;
+}
+
+.card-text {
+    font-weight: 200;
 }
 
 .card:hover .servicesIcon {
@@ -69,7 +89,7 @@ li.nav-link {
 }
 
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #363636;
 }
 
 .social-icons {
@@ -83,7 +103,7 @@ li.nav-link {
 }
 
 .fab {
-    color: #000000;
+    color: #363636;
     padding: 10px;
 }
 
@@ -94,9 +114,9 @@ li.nav-link {
 }
 
 .btn.btn-success {
-    background-color: #512b26;
+    background-color: #363636;
     color: white;
-    border-color: #512b26;
+    border-color: #363636;
 }
 
 .btn.btn-success:hover {
@@ -106,4 +126,13 @@ li.nav-link {
 
 .project-type {
     text-align: center;
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1em;
 }
+
+.txt-section-header {
+    margin-bottom: 2rem;
+}
+
